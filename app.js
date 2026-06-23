@@ -86,7 +86,7 @@ app.post("/user", async (req, res) => {
 
         // }
 
-        
+
 
 
         let user = await User.create({
@@ -145,13 +145,13 @@ app.get("/user/:id", async (req, res) => {
     const user = await User.findById(id)
 
     if (!user) {
-        return
+        return res.json({
+            status: true,
+            message: "user not found"
+        })
+
     }
 
-    res.json({
-        status: true,
-        message: "user not found"
-    })
 
     res.json({
         status: true,
