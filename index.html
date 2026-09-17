@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!--
+  =====================================================================
+  राष्ट्रीय सरपंच संसद - Official Website
+  MIT School of Government, Pune
+  ---------------------------------------------------------------------
+  Built with pure HTML5 + CSS3 (No Bootstrap, No JavaScript Framework)
+  All visible text is in Marathi (Unicode Devanagari)
+  Comments are in English for developer readability
+  =====================================================================
+-->
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags in Marathi -->
+    <meta name="description" content="राष्ट्रीय सरपंच संसद - ग्रामोन्नतीतून देशोन्नती. MIT School of Government, Pune अंतर्गत स्थापन व्यासपीठ.">
+    <meta name="keywords" content="राष्ट्रीय सरपंच संसद, सरपंच, ग्रामविकास, MIT School of Government, Pune, ग्रामपंचायत">
+    <meta name="author" content="MIT School of Government, Pune">
+
+    <!-- Google Font: Noto Sans Devanagari for proper Marathi rendering -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>राष्ट्रीय सरपंच संसद | ग्रामोन्नतीतून देशोन्नती</title>
+</head>
+
+<body>
+
+    <!-- ============================================================
+         HEADER SECTION
+         - Logo placeholder on left
+         - Website title in Marathi
+         - Subtitle: MIT School of Government, Pune
+         - Sticky navigation menu
+    ============================================================ -->
+    <header class="site-header">
+
+        <!-- Top Bar: institution branding -->
+        <div class="top-bar">
+            <div class="container top-bar-inner">
+                <p class="top-bar-text">MIT School of Government, Pune अंतर्गत</p>
+                <p class="top-bar-tagline">“ग्रामोन्नतीतून देशोन्नती”</p>
+            </div>
+        </div>
+
+        <!-- Main Header: logo + title -->
+        <div class="container header-main">
+            <!-- Logo Placeholder (left) -->
+            <div class="logo-wrap">
+                <div class="logo-placeholder" aria-label="लोगो">
+                    <span class="logo-text">रा.स.सं.</span>
+                </div>
+                <div class="title-block">
+                    <h1 class="site-title">राष्ट्रीय सरपंच संसद</h1>
+                    <p class="site-subtitle">MIT School of Government, Pune</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Navigation Bar -->
+        <nav class="main-nav" aria-label="मुख्य नेव्हिगेशन">
+            <div class="container nav-inner">
+                <!-- Mobile menu handled via CSS :target / checkbox pattern (no JS) -->
+                <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+                <label for="nav-toggle" class="nav-toggle-label" aria-label="मेनू उघडा/बंद करा">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">मुख्यपृष्ठ</a></li>
+                    <li><a href="#about" class="nav-link">आमच्याविषयी</a></li>
+                    <li><a href="#objectives" class="nav-link">उद्दिष्टे</a></li>
+                    <li><a href="#goals" class="nav-link">शाश्वत ग्राम उद्दिष्टे</a></li>
+                    <li><a href="#programs" class="nav-link">उपक्रम</a></li>
+                    <li><a href="#training" class="nav-link">प्रशिक्षण</a></li>
+                    <li><a href="#awards" class="nav-link">पुरस्कार</a></li>
+                    <li><a href="#contact" class="nav-link">संपर्क</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============================================================
+         MAIN CONTENT
+    ============================================================ -->
+    <main style="">
+
+        <!-- ===== HERO SECTION ===== -->
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <h2 class="hero-title">
+                    ग्रामपंचायत प्रतिनिधींचे सक्षमीकरण, प्रशिक्षण आणि शाश्वत ग्रामविकासासाठी राष्ट्रीय व्यासपीठ.
+                </h2>
+                <p class="hero-tagline">“ग्रामोन्नतीतून देशोन्नती”</p>
+                <a href="#about" class="btn btn-primary">अधिक माहिती</a>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION (आमच्याविषयी) ===== -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">आमच्याविषयी</h2>
+                <div class="section-title-underline"></div>
+
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p>
+                            राष्ट्रीय सरपंच संसद ही <strong>MIT School of Government, Pune</strong> अंतर्गत स्थापन करण्यात आलेली संस्था आहे.
+                            ग्रामीण भारताच्या सर्वांगीण व शाश्वत विकासासाठी सरपंच, उपसरपंच आणि ग्रामपंचायत सदस्यांचे सक्षमीकरण करणे
+                            हे या संस्थेचे प्रमुख ध्येय आहे. भारताची एकूण लोकसंख्येपैकी सुमारे ७० टक्के लोकसंख्या ग्रामीण भागात राहते,
+                            त्यामुळे ग्रामीण भागाचा विकास हाच खरा राष्ट्राचा विकास आहे, अशी दृष्टी या संस्थेने स्वीकारली आहे.
+                        </p>
+                        <p>
+                            प्रजासत्ताक भारताच्या लोकशाही व्यवस्थेत ग्रामपंचायत राज्यव्यवस्था हे लोकशाहीचे मूळ आधारस्तंभ आहे.
+                            या राज्यव्यवस्थेतील सरपंच, उपसरपंच आणि ग्रामपंचायत सदस्य यांना प्रशिक्षण देऊन सक्षम करण्यासाठी
+                            आणि त्यांच्या नेतृत्वाखाली शाश्वत ग्रामविकास घडवण्यासाठी राष्ट्रीय सरपंच संसद कार्यरत आहे.
+                            विविध क्षेत्रातील नेतृत्वशाली व्यक्तींच्या सहकार्याने ही संस्था देशभरातील सरपंचांना एकत्र आणत आहे.
+                        </p>
+                        <p>
+                            संस्थेच्या माध्यमातून राष्ट्रीय, राज्यस्तरीय, विभागस्तरीय, जिल्हास्तरीय आणि तालुकास्तरीय अशा
+                            सर्व स्तरांवर सरपंच संसदेच्या उपक्रमांचे आयोजन करण्यात येते, ज्यामुळे ग्रामीण नेतृत्वाला
+                            एक सशक्त व्यासपीठ उपलब्ध होते.
+                        </p>
+                    </div>
+
+                    <!-- Establishment Info Card -->
+                    <aside class="about-info-card">
+                        <h3 class="info-card-title">संस्थेची ओळख</h3>
+                        <ul class="info-list">
+                            <li>
+                                <span class="info-label">स्थापना वर्ष</span>
+                                <span class="info-value">२०१७</span>
+                            </li>
+                            <li>
+                                <span class="info-label">स्थळ</span>
+                                <span class="info-value">पुणे, महाराष्ट्र</span>
+                            </li>
+                            <li>
+                                <span class="info-label">मूळ संस्था</span>
+                                <span class="info-value">MIT School of Government</span>
+                            </li>
+                            <li>
+                                <span class="info-label">कार्यक्षेत्र</span>
+                                <span class="info-value">संपूर्ण भारत</span>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== OBJECTIVES SECTION (ध्येय / उद्दिष्टे) ===== -->
+        <section id="objectives" class="section objectives-section">
+            <div class="container">
+                <h2 class="section-title">आमची उद्दिष्टे</h2>
+                <div class="section-title-underline"></div>
+                <p class="section-intro">
+                    ग्रामीण भारताच्या सर्वांगीण विकासासाठी राष्ट्रीय सरपंच संसदेने स्वीकारलेली प्रमुख उद्दिष्टे खालीलप्रमाणे आहेत.
+                </p>
+
+                <div class="objectives-grid">
+                    <!-- Objective Card 1 -->
+                    <article class="objective-card">
+                        <div class="objective-icon" aria-hidden="true">
+                            <span>🌾</span>
+                        </div>
+                        <h3 class="objective-title">ग्रामविकास</h3>
+                        <p class="objective-desc">
+                            ग्रामीण भागातील पायाभूत सुविधांचा विकास, शेती व उद्योगांना चालना देऊन
+                            सर्वांगीण व शाश्वत ग्रामविकास साध्य करणे हे प्रमुख उद्दिष्ट आहे.
+                        </p>
+                    </article>
+
+                    <!-- Objective Card 2 -->
+                    <article class="objective-card">
+                        <div class="objective-icon" aria-hidden="true">
+                            <span>🧭</span>
+                        </div>
+                        <h3 class="objective-title">नेतृत्व विकास</h3>
+                        <p class="objective-desc">
+                            ग्रामपंचायत प्रतिनिधींमध्ये प्रभावी नेतृत्व गुण निर्माण करणे,
+                            निर्णयक्षमता वाढवणे तसेच सामाजिक बांधिलकी वृद्धिंगत करणे हे उद्दिष्ट आहे.
+                        </p>
+                    </article>
+
+                    <!-- Objective Card 3 -->
+                    <article class="objective-card">
+                        <div class="objective-icon" aria-hidden="true">
+                            <span>📚</span>
+                        </div>
+                        <h3 class="objective-title">प्रशिक्षण व सक्षमीकरण</h3>
+                        <p class="objective-desc">
+                            सरपंच, उपसरपंच व ग्रामपंचायत सदस्यांना प्रशासकीय, कायदेशीर व तांत्रिक
+                            प्रशिक्षण देऊन त्यांचे सक्षमीकरण करणे हे मुख्य उद्दिष्ट आहे.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SUSTAINABLE VILLAGE GOALS SECTION (शाश्वत ग्राम उद्दिष्टे) ===== -->
+        <section id="goals" class="section goals-section">
+            <div class="container">
+                <h2 class="section-title">शाश्वत ग्राम उद्दिष्टे</h2>
+                <div class="section-title-underline"></div>
+                <p class="section-intro">
+                    केंद्र सरकारच्या ग्रामीण विकास मंत्रालय व पंचायत राज मंत्रालयाने निश्चित केलेल्या
+                    ९ शाश्वत ग्राम विकास उद्दिष्टांची प्रामुख्याने अंमलबजावणी करणे हे आमचे ध्येय आहे.
+                </p>
+
+                <div class="goals-grid">
+                    <!-- Goal 1 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०१</div>
+                        <h3 class="goal-title">दारिद्र्यमुक्त गाव</h3>
+                        <p class="goal-desc">गावातील प्रत्येक कुटुंबाला उत्पन्नाचा स्रोत उपलब्ध करून देणे.</p>
+                    </article>
+                    <!-- Goal 2 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०२</div>
+                        <h3 class="goal-title">निरोगी गाव</h3>
+                        <p class="goal-desc">आरोग्य सेवा, पोषण व स्वच्छता उपलब्ध करून निरोगी समाज घडवणे.</p>
+                    </article>
+                    <!-- Goal 3 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०३</div>
+                        <h3 class="goal-title">बालस्नेही गाव</h3>
+                        <p class="goal-desc">मुलांच्या शिक्षण, आरोग्य व संरक्षणासाठी अनुकूल वातावरण निर्माण करणे.</p>
+                    </article>
+                    <!-- Goal 4 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०४</div>
+                        <h3 class="goal-title">जलसंपन्न गाव</h3>
+                        <p class="goal-desc">जलसंधारण, पाणीपुरवठा व शेतीसाठी पर्याप्त पाणी स्रोत विकसित करणे.</p>
+                    </article>
+                    <!-- Goal 5 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०५</div>
+                        <h3 class="goal-title">स्वच्छ व हरित गाव</h3>
+                        <p class="goal-desc">स्वच्छता अभियान व वृक्षारोपणाद्वारे हरित गाव निर्माण करणे.</p>
+                    </article>
+                    <!-- Goal 6 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०६</div>
+                        <h3 class="goal-title">मूलभूत सुविधांनी युक्त गाव</h3>
+                        <p class="goal-desc">रस्ते, वीज, शिक्षण व आरोग्य यांसारख्या मूलभूत सुविधा उपलब्ध करणे.</p>
+                    </article>
+                    <!-- Goal 7 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०७</div>
+                        <h3 class="goal-title">सामाजिकदृष्ट्या सुरक्षित गाव</h3>
+                        <p class="goal-desc">सर्व प्रकारच्या भेदभावामुक्त सुरक्षित सामाजिक वातावरण निर्माण करणे.</p>
+                    </article>
+                    <!-- Goal 8 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०८</div>
+                        <h3 class="goal-title">सुशासित गाव</h3>
+                        <p class="goal-desc">पारदर्शक व जबाबदार ग्रामपंचायत व्यवस्था राबवून सुशासन साध्य करणे.</p>
+                    </article>
+                    <!-- Goal 9 -->
+                    <article class="goal-card">
+                        <div class="goal-number">०९</div>
+                        <h3 class="goal-title">महिला स्नेही गाव</h3>
+                        <p class="goal-desc">महिलांच्या सक्षमीकरणासाठी अनुकूल व सुरक्षित वातावरण निर्माण करणे.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROGRAMS SECTION (उपक्रम) ===== -->
+        <section id="programs" class="section programs-section">
+            <div class="container">
+                <h2 class="section-title">उपक्रम</h2>
+                <div class="section-title-underline"></div>
+                <p class="section-intro">
+                    राष्ट्रीय सरपंच संसदेमार्फत विविध स्तरांवर आणि विविध विषयांवर उपक्रमांचे आयोजन करण्यात येते.
+                </p>
+
+                <div class="programs-grid">
+                    <!-- Program 1 -->
+                    <article class="program-card">
+                        <div class="program-badge">राष्ट्रीय</div>
+                        <h3 class="program-title">राष्ट्रीय सरपंच संसद</h3>
+                        <p class="program-desc">
+                            देशभरातील सरपंचांना एकत्र आणणारे राष्ट्रीय व्यासपीठ,
+                            धोरण चर्चा व अनुभव विनिमयासाठी आयोजित.
+                        </p>
+                    </article>
+                    <!-- Program 2 -->
+                    <article class="program-card">
+                        <div class="program-badge">राज्यस्तरीय</div>
+                        <h3 class="program-title">राज्यस्तरीय सरपंच संसद</h3>
+                        <p class="program-desc">
+                            प्रत्येक राज्यातील सरपंचांसाठी राज्यस्तरीय संमेलन व
+                            धोरणात्मक चर्चासाठी व्यासपीठ.
+                        </p>
+                    </article>
+                    <!-- Program 3 -->
+                    <article class="program-card">
+                        <div class="program-badge">जिल्हास्तरीय</div>
+                        <h3 class="program-title">जिल्हास्तरीय सरपंच संसद</h3>
+                        <p class="program-desc">
+                            जिल्ह्यानिहाय सरपंचांचे संमेलन व स्थानिक प्रश्नांवर
+                            परिणामकारक चर्चा व नियोजन.
+                        </p>
+                    </article>
+                    <!-- Program 4 -->
+                    <article class="program-card">
+                        <div class="program-badge">तालुकास्तरीय</div>
+                        <h3 class="program-title">तालुकास्तरीय सरपंच संसद</h3>
+                        <p class="program-desc">
+                            तालुकास्तरीय सरपंचांची बैठक व ग्रामीण विकासाच्या
+                            प्राधान्यक्रमावर चर्चा व मार्गदर्शन.
+                        </p>
+                    </article>
+                    <!-- Program 5 -->
+                    <article class="program-card">
+                        <div class="program-badge">पर्यावरण</div>
+                        <h3 class="program-title">वृक्षारोपण अभियान</h3>
+                        <p class="program-desc">
+                            हरित ग्राम निर्मितीसाठी मोठ्या प्रमाणात वृक्षारोपण व
+                            पर्यावरण जलवायू संतुलन राखण्याचे अभियान.
+                        </p>
+                    </article>
+                    <!-- Program 6 -->
+                    <article class="program-card">
+                        <div class="program-badge">उद्योजकता</div>
+                        <h3 class="program-title">एक ग्रामपंचायत – एक उद्योजक</h3>
+                        <p class="program-desc">
+                            प्रत्येक ग्रामपंचायतीत किमान एक उद्योजक निर्माण करून
+                            स्थानिक रोजगार व स्वरोजगाराला चालना देणे.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TRAINING SECTION (प्रशिक्षण) ===== -->
+        <section id="training" class="section training-section">
+            <div class="container">
+                <h2 class="section-title">प्रशिक्षण</h2>
+                <div class="section-title-underline"></div>
+                <p class="section-intro">
+                    सरपंच व ग्रामपंचायत प्रतिनिधींच्या सक्षमीकरणासाठी खालील प्रशिक्षण कार्यक्रमांचे नियोजन करण्यात येते.
+                </p>
+
+                <!-- Highlighted training box -->
+                <div class="training-highlight-box">
+                    <div class="training-box-header">
+                        <h3>प्रशिक्षणाचे प्रकार</h3>
+                    </div>
+                    <div class="training-items">
+                        <div class="training-item">
+                            <div class="training-item-icon">📋</div>
+                            <div class="training-item-body">
+                                <h4>आदर्श ग्राम नियोजन प्रशिक्षण</h4>
+                                <p>ग्रामविकास आराखडा तयार करणे, स्रोत नियोजन व अंमलबजावणी यांचे प्रात्यक्षिक प्रशिक्षण.</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-item-icon">💰</div>
+                            <div class="training-item-body">
+                                <h4>CSR निधी व्यवस्थापन</h4>
+                                <p>प्रायव्हेट व सार्वजनिक कंपन्यांच्या CSR निधीचे ग्रामविकासासाठी प्रभावी व्यवस्थापन प्रशिक्षण.</p>
+                            </div>
+                        </div>
+                        <div class="training-item">
+                            <div class="training-item-icon">🎤</div>
+                            <div class="training-item-body">
+                                <h4>व्यक्तिमत्त्व विकास व वक्तृत्व प्रशिक्षण</h4>
+                                <p>प्रभावी संवाद, सादरीकरण कौशल्य व नेतृत्व विकासासाठी विशेष प्रशिक्षण कार्यशाळा.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== AWARDS SECTION (पुरस्कार) ===== -->
+        <section id="awards" class="section awards-section">
+            <div class="container">
+                <h2 class="section-title">पुरस्कार</h2>
+                <div class="section-title-underline"></div>
+                <p class="section-intro">
+                    उत्कृष्ट काम करणाऱ्या ग्रामपंचायत प्रतिनिधींना व गावांना गौरविण्यासाठी राष्ट्रीय सरपंच संसदेमार्फत पुरस्कार देण्यात येतात.
+                </p>
+
+                <div class="awards-grid">
+                    <!-- Award 1 -->
+                    <article class="award-card">
+                        <div class="award-icon">🏆</div>
+                        <h3 class="award-title">आदर्श ग्राम पुरस्कार</h3>
+                        <p class="award-desc">
+                            सर्वांगीण व शाश्वत विकास साध्य करणाऱ्या गावांना दिला जाणारा सर्वोच्च पुरस्कार.
+                        </p>
+                    </article>
+                    <!-- Award 2 -->
+                    <article class="award-card">
+                        <div class="award-icon">🥇</div>
+                        <h3 class="award-title">आदर्श सरपंच पुरस्कार</h3>
+                        <p class="award-desc">
+                            उत्कृष्ट नेतृत्व व प्रशासन करणाऱ्या सरपंचांना दिला जाणारा पुरस्कार.
+                        </p>
+                    </article>
+                    <!-- Award 3 -->
+                    <article class="award-card">
+                        <div class="award-icon">🎖️</div>
+                        <h3 class="award-title">आदर्श ग्रामपंचायत अधिकारी पुरस्कार</h3>
+                        <p class="award-desc">
+                            कार्यक्षम व पारदर्शक कामकाज करणाऱ्या ग्रामपंचायत अधिकाऱ्यांना दिला जाणारा पुरस्कार.
+                        </p>
+                    </article>
+                    <!-- Award 4 -->
+                    <article class="award-card">
+                        <div class="award-icon">🌷</div>
+                        <h3 class="award-title">महिला ग्रामविकास पुरस्कार</h3>
+                        <p class="award-desc">
+                            ग्रामविकासात उल्लेखनीय योगदान देणाऱ्या महिलांना व महिला सरपंचांना दिला जाणारा पुरस्कार.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION (संपर्क) ===== -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">संपर्क</h2>
+                <div class="section-title-underline"></div>
+
+                <div class="contact-grid">
+                    <!-- Contact Details -->
+                    <div class="contact-info">
+                        <h3 class="contact-block-title">संपर्क माहिती</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <strong>राष्ट्रीय सरपंच संसद</strong><br>
+                                    MIT School of Government, Pune<br>
+                                    महाराष्ट्र, भारत
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-icon">✉️</span>
+                                <div>
+                                    <span class="contact-label">ईमेल:</span>
+                                    <a href="mailto:info@rashtriysarpanchsansad.org" class="contact-link">
+                                        info@rashtriysarpanchsansad.org
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-icon">🌐</span>
+                                <div>
+                                    <span class="contact-label">संकेतस्थळ:</span>
+                                    <a href="https://www.sarpanchsangh.org/about-us" target="_blank" rel="noopener" class="contact-link">
+                                        www.sarpanchsangh.org
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="contact-icon">📞</span>
+                                <div>
+                                    <span class="contact-label">दूरध्वनी:</span>
+                                    <a href="tel:+910000000000" class="contact-link">+९१ ००००० ०००००</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Form (no backend, HTML only) -->
+                    <div class="contact-form-wrap">
+                        <h3 class="contact-block-title">संदेश पाठवा</h3>
+                        <form class="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">नाव</label>
+                                <input type="text" id="name" name="name" placeholder="तुमचे नाव टाका" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">ईमेल</label>
+                                <input type="email" id="email" name="email" placeholder="तुमचा ईमेल टाका" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">दूरध्वनी</label>
+                                <input type="tel" id="phone" name="phone" placeholder="तुमचा दूरध्वनी क्रमांक टाका">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">संदेश</label>
+                                <textarea id="message" name="message" rows="4" placeholder="तुमचा संदेश येथे लिहा" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary form-submit">संदेश पाठवा</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================
+         FOOTER SECTION
+    ============================================================ -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <!-- Footer Brand Block -->
+            <div class="footer-block footer-brand">
+                <h3 class="footer-brand-title">राष्ट्रीय सरपंच संसद</h3>
+                <p class="footer-brand-subtitle">“ग्रामोन्नतीतून देशोन्नती”</p>
+                <p class="footer-brand-text">
+                    MIT School of Government, Pune अंतर्गत स्थापन संस्था,
+                    ग्रामीण भारताच्या सर्वांगीण व शाश्वत विकासासाठी कार्यरत.
+                </p>
+            </div>
+
+            <!-- Footer Quick Links -->
+            <div class="footer-block footer-links">
+                <h4 class="footer-heading">त्वरित दुवे</h4>
+                <ul>
+                    <li><a href="#home">मुख्यपृष्ठ</a></li>
+                    <li><a href="#about">आमच्याविषयी</a></li>
+                    <li><a href="#objectives">उद्दिष्टे</a></li>
+                    <li><a href="#programs">उपक्रम</a></li>
+                    <li><a href="#awards">पुरस्कार</a></li>
+                    <li><a href="#contact">संपर्क</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Contact -->
+            <div class="footer-block footer-contact">
+                <h4 class="footer-heading">संपर्क</h4>
+                <ul>
+                    <li>MIT School of Government, Pune</li>
+                    <li>
+                        <a href="mailto:info@rashtriysarpanchsansad.org">
+                            info@rashtriysarpanchsansad.org
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sarpanchsangh.org/about-us" target="_blank" rel="noopener">
+                            www.sarpanchsangh.org
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Footer Social -->
+            <div class="footer-block footer-social">
+                <h4 class="footer-heading">सामाजिक माध्यमे</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook" title="Facebook">f</a>
+                    <a href="#" class="social-icon" aria-label="Twitter" title="Twitter">t</a>
+                    <a href="#" class="social-icon" aria-label="Instagram" title="Instagram">i</a>
+                    <a href="#" class="social-icon" aria-label="YouTube" title="YouTube">y</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright bar -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© २०२५ राष्ट्रीय सरपंच संसद, MIT School of Government, Pune. सर्व हक्क राखीव.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
